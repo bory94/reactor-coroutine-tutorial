@@ -1,4 +1,4 @@
-package com.bory.reactor.tutorial.coroutine.compose
+package com.bory.coroutine.tutorial.compose
 
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.async

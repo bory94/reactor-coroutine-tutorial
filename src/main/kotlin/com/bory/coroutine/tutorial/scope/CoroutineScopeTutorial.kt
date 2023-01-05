@@ -1,4 +1,4 @@
-package com.bory.reactor.tutorial.coroutine.scope
+package com.bory.coroutine.tutorial.scope
 
 import kotlinx.coroutines.*
 

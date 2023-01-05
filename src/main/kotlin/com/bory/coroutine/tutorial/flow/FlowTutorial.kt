@@ -1,4 +1,4 @@
-package com.bory.reactor.tutorial.coroutine.flow
+package com.bory.coroutine.tutorial.flow
 
 import com.bory.reactor.tutorial.coroutine.log
 import kotlinx.coroutines.*

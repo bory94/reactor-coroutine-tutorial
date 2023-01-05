@@ -1,4 +1,4 @@
-package com.bory.reactor.tutorial.coroutine.channel
+package com.bory.coroutine.tutorial.channel
 
 import com.bory.reactor.tutorial.coroutine.log
 import kotlinx.coroutines.Dispatchers
