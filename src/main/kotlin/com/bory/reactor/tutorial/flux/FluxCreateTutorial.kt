@@ -6,14 +6,15 @@ import java.lang.Thread.sleep
 import java.time.Duration
 
 fun main() {
-    val createdFlux = Flux.create { sink ->
-        var initial = 1
+    val createdFlux: Flux<Int> = Flux.create { sink ->
+        var current = 1
         var accumulated = 1
-        while (accumulated < 100000) {
-            sink.next(initial)
+        while (accumulated < 1000000) {
+            log("Emitting ::: $current")
+            sink.next(current)
             val tmp = accumulated
-            accumulated += initial
-            initial = tmp
+            accumulated += current
+            current = tmp
         }
         sink.complete()
     }
