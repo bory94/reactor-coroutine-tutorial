@@ -1,4 +1,4 @@
-package com.bory.reactor.tutorial.coroutine
+package com.bory.coroutine.tutorial.cancel
 
 import kotlinx.coroutines.*
 import reactor.core.publisher.Flux

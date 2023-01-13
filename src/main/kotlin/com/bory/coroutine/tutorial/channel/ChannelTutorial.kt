@@ -1,6 +1,6 @@
 package com.bory.coroutine.tutorial.channel
 
-import com.bory.reactor.tutorial.coroutine.log
+import com.bory.coroutine.tutorial.log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay

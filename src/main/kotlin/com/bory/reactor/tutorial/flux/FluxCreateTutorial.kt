@@ -1,6 +1,6 @@
 package com.bory.reactor.tutorial.flux
 
-import com.bory.reactor.tutorial.coroutine.log
+import com.bory.coroutine.tutorial.log
 import reactor.core.publisher.Flux
 import java.lang.Thread.sleep
 import java.time.Duration

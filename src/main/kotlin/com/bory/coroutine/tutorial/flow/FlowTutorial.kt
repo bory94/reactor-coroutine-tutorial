@@ -1,6 +1,6 @@
 package com.bory.coroutine.tutorial.flow
 
-import com.bory.reactor.tutorial.coroutine.log
+import com.bory.coroutine.tutorial.log
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.buffer
 import kotlinx.coroutines.flow.flow

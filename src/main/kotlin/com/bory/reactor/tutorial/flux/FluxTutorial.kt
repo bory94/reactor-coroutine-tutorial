@@ -1,6 +1,6 @@
 package com.bory.reactor.tutorial.flux
 
-import com.bory.reactor.tutorial.coroutine.log
+import com.bory.coroutine.tutorial.log
 import org.reactivestreams.Subscriber
 import org.reactivestreams.Subscription
 import reactor.core.publisher.Flux
